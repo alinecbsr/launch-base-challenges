@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+  --color-purple: #6c4fbb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  color: white;
+  background: #282a36;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 1.8rem;
+  border-bottom: 1px solid #333;
+  background-color: rgba(0, 0, 0, 0, 1);
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header div a {
+  color: white;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 1.8rem;
+}
+
+header div a:hover {
+  color: #50fa7b;
+  transition: color 200ms;
+}
+
+#main {
+  text-align: center;
+  padding: 2rem;
+}
+
+#main img {
+  width: 16rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-top: 3rem;
+}
+
+#main h1 {
+  font-size: 2.6rem;
+  line-height: 3.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#main h2 {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+#main p {
+  max-width: 31.25;
+  margin: 2rem auto;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+}
+
+#main ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  max-width: 31.25;
+  list-style: none;
+  opacity: 0.9;
+  letter-spacing: 1px;
+}
+
+#main li {
+  margin: 0 2rem;
+  cursor: pointer;
+}
+
+#main li:hover {
+  color: #50fa7b;
+  transition: color 200ms;
+}
+
+#social img {
+  width: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+#social img:hover {
+  opacity: 0.7;
+}
+
+.content-links {
+  width: 100%;
+  padding: 1.8rem;
+  background-color: rgba(0, 0, 0, 0, 1);
+}
+
+/*=== CONTENT ===*/
+
+.content-header {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.content-header h2 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+.content-header p {
+  max-width: 30rem;
+  margin: 1rem auto;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-weight: 300;
+}
+/*=== CARDS ===*/
+
+.cards {
+  max-width: 60rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.card {
+  border-radius: 8px;
+  transition: all 0.2s ease 0s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(29, 28, 28);
+  background-color: #1d1c24;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.card:hover {
+  border-color: #7159c1;
+  background-color: #1d1c24;
+  cursor: pointer;
+  filter: brightness(70%);
+  transition: border 0.2s ease 0s, transform 0.2s ease 0s;
+  top:-2px;
+}
+.card1:hover {
+  border-color: #7159c1;
+}
+
+.card2:hover {
+  border-color: #fd951f;
+}
+
+.card3:hover {
+  border-color: #04d361;
+}
+
+.card__image-container {
+  padding: 5%;
+}
+.card__image-container img {
+  width: 100%;
+  height: 10rem;
+  text-align: center;
+}
+
+.card1 span {
+  color: #7159c1;
+}
+
+.card2 span {
+  color: #fd951f;
+}
+.card3 span {
+  color: #04d361;
+}
+
+.card__content,
+.card__info {
+  padding: 1.5rem;
+}
+
+.card__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card__price {
+  background-color: var(--color-purple);
+  filter: brightness(90%);
+  padding: 0.3rem 1.25rem;
+  border-radius: 1.25rem;
+  text-align: center;
+}
+
+/*=== MODAL ===*/
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: white;
+  position: relative;
+  width: 90%;
+  height: 90%;
+  margin: 5vh auto;
+}
+
+.modal .close-modal {
+  color: black;
+  position: absolute;
+  cursor: pointer;
+  right: 1rem;
+  top: 0.5rem;
+}
+
+.modal .fullscreen-modal {
+  color: black;
+  position: absolute;
+  cursor: pointer;
+  right: 4rem;
+  top: 0.5rem;
+}
+
+/*=== MODAL.ACTIVE ===*/
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+iframe {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+}
+
+.modal.fullscreen{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.fullscreen{
+  margin: 0;
+}

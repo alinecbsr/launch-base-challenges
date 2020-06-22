@@ -36,15 +36,17 @@ This project was developed with the following technologies:
 ## :beginner: :dart: Challenges
 <br>
 
+<h5 style="color: #333">
+Above you can check the codes of all the challenges and here we have some videos of them
+</h5>
+<br>
+<br>
+
 <h4 align="center" style="color: #6c4fbb" >
   💻 🚀 Challenge 2-3 
 </h4>
 
 <br>
-
-<p style="color: #333">
-Above you can check the codes of all the challenges and here we have some videos of them
-</p>
 
 >Check the complete project code [here](https://github.com/alinecbsr/launch-base-challenges/tree/master/challenge_2/chalenge_2-3.1/) 
 

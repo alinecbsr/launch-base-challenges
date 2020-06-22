@@ -18,9 +18,10 @@
   <a href="#purple_heart-contributors">Contributors</a>
 </p>
 
-
+<br>
 
 ## :floppy_disk: Technology
+<br>
 
 This project was developed with the following technologies:
 
@@ -30,20 +31,32 @@ This project was developed with the following technologies:
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
 </ul>
 
+<br>
 
 ## :beginner: :dart: Challenges
+<br>
 
 <h4 align="center" style="color: #6c4fbb" >
   💻 🚀 Challenge 2-3 
 </h4>
 
-  Check [here]()
+<br>
 
+<p style="color: #333">
+Above you can check the codes of all the challenges and here we have some videos of them
+</p>
 
-![](https://github.com/alinecbsr/launch-base-front-end-started/blob/master/project.gif)
+>Check the complete project code [here](https://github.com/alinecbsr/launch-base-challenges/tree/master/challenge_2/chalenge_2-3.1/) 
 
+<br>
+
+![](https://github.com/alinecbsr/launch-base-challenges/blob/master/projects_videos/Desafio%202-3.gif)
+
+<br>
 
 ## :purple_heart: Contribution
+
+<br>
 
 <table>
   <tr>
